@@ -10,7 +10,7 @@ install:
 build:
   verbosity: normal
 after_build:
-- cmd: 7z a openbullet.zip %APPVEYOR_BUILD_FOLDER%\openbullet\bin\debug\
+- cmd: 7z a OpenBullet.zip %APPVEYOR_BUILD_FOLDER%\openbullet\bin\debug\
 artifacts:
-- path: openbullet.zip
-  name: openbullet
+- path: OpenBullet.zip
+  name: OpenBullet
